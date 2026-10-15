@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>韓國美食指南 Korea Gourmet — Seoul · Busan</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header>
+<h1>韓國美食指南 <small>Korea Gourmet · Seoul &amp; Busan</small></h1>
+<p class="note">整合米其林指南、Blue Ribbon Survey、Taste of Seoul、Taste of Busan 與 100 Great Places to Eat in Busan。水原(Suwon)目前各來源皆無入選店家。<a href="sources.html">評級來源連結 Sources</a></p>
+<div class="bar">
+<input id="q" type="search" placeholder="搜尋 店名 / 韓文 / 英文 / 菜名 / 地址…">
+<select id="fCity"><option value="">城市 City</option></select>
+<select id="fGu"><option value="">行政區 District</option></select>
+<select id="fAward"><option value="">評級獎項 Award</option></select>
+<select id="fCat"><option value="">美食分類 Category</option></select>
+<select id="fKind"><option value="">類型 Type</option></select>
+</div>
+<div id="count"></div>
+</header>
+<main id="list"></main>
+<div id="more"><button id="moreBtn">載入更多 Load more</button></div>
+<footer>資料來源為各官方榜單頁面；圖片取自來源網站（版權屬原權利人）。營業時間請以現場為準。</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body></html>
